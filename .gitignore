@@ -1,0 +1,34 @@
+# Ignore bundler config.
+.bundle
+
+# Ignore all environment files (except templates).
+/.env*
+!/.env*.erb
+
+# Ignore all logfiles and tempfiles in both directories.
+**/*.log
+**/tmp/*
+
+# Keep .keep files for empty directories
+!/api/tmp/.keep
+!/frontend/tmp/.keep
+
+# Ignore PID files, but keep the directory.
+api/tmp/pids/*
+!/api/tmp/pids/
+!/api/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases).
+api/storage/*
+!/api/storage/.keep
+frontend/storage/*
+!/frontend/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+api/config/master.key
+
+# Ignore public assets and build artifacts.
+public/assets
+frontend/build/
+frontend/node_modules/
+public/packs
