@@ -3,6 +3,21 @@ class GreetingsController < ApplicationController
   # protect_from_forgery with: :null_session
 
   def hello
-    render json: { message: 'Hello World' }
+    links = {
+      app1: I18n.t('links.app1'),
+      app2: I18n.t('links.app2'),
+      api: I18n.t('links.api'),
+      imosaic: I18n.t('links.imosaic'),
+      backlog: I18n.t('links.backlog'),
+      portfolio: I18n.t('links.portfolio'),
+      blog: I18n.t('links.blog'),
+      hub: I18n.t('links.hub'),
+      python_apps: I18n.t('links.python_apps'),
+    }
+
+    render json: {
+      message: I18n.t('greeting'),
+      links: links
+    }
   end
 end
