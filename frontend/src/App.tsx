@@ -31,7 +31,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>{error ? error : message ? message : 'Loading...'}</p>
         <div className="tile-container">
           {links &&
             Object.entries(links).map(([key, value], index) => (
@@ -47,14 +46,6 @@ function App() {
               </div>
             ))}
         </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

@@ -16,7 +16,6 @@ class GreetingsController < ApplicationController
     }
 
     render json: {
-      message: I18n.t('greeting'),
       links: links
     }
   end
