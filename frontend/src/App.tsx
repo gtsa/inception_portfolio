@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import logo from './logo1.svg';
 import './App.css';
 import axios from 'axios';
 
@@ -30,7 +30,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-logo-wrapper">
+          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo1" alt="logo" />
+        </div>
         <div className="tile-container">
           {links &&
             Object.entries(links).map(([key, value], index) => (
