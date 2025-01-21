@@ -32,20 +32,21 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{error ? error : message ? message : 'Loading...'}</p>
-        <ul>
+        <div className="tile-container">
           {links &&
             Object.entries(links).map(([key, value], index) => (
-              <li key={index}>
+              <div key={index} className="tile">
                 <a
                   href={`http://${key.toLowerCase()}.localhost:3000`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="tile-link"
                 >
                   {value}
                 </a>
-              </li>
+              </div>
             ))}
-        </ul>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
