@@ -35,6 +35,7 @@ function App() {
           <img src={logo_swirl} className="App-logo-swirl" alt="logo-swirl" />
           <img src={logo_otter} className="App-logo-otter" alt="logo-otter" />
         </div>
+        <h1 className="App-title">OtterVerse</h1>
         <div className="tile-container">
           {links &&
             Object.entries(links).map(([key, value], index) => (
