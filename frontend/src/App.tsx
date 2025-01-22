@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo1.svg';
+import logo_otter from './logo-otter.png';
+import logo_swirl from './logo-swirl.png';
 import './App.css';
 import axios from 'axios';
 
@@ -31,8 +32,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-logo-wrapper">
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo1" alt="logo" />
+          <img src={logo_swirl} className="App-logo-swirl" alt="logo-swirl" />
+          <img src={logo_otter} className="App-logo-otter" alt="logo-otter" />
         </div>
         <div className="tile-container">
           {links &&
