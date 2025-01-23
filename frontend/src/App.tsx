@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import logo_otter from './logo-otter.png';
 import logo_swirl from './logo-swirl.png';
 import './App.css';
@@ -12,6 +13,9 @@ function App() {
   const [showTiles, setShowTiles] = useState(false);
   const [links, setLinks] = useState<Link | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const { i18n } = useTranslation();
+  const { t }: { t: (key: string) => string } = useTranslation();
+
 
   useEffect(() => {
     const fetchGreeting = async () => {
@@ -29,6 +33,10 @@ function App() {
 
   const toggleTiles = () => {
     setShowTiles((prev) => !prev); // Toggle the state to show/hide tiles
+  };
+
+  const changeLanguage = (lang: string) => {
+    i18n.changeLanguage(lang);
   };
 
   return (
@@ -51,11 +59,27 @@ function App() {
                   rel="noopener noreferrer"
                   className="tile-link"
                 >
-                  {value}
+                  {t(value.toLowerCase())}
                 </a>
               </div>
             ))}
         </div>
+
+
+        {/* Language Switcher Buttons */}
+        <div className={`language-switcher ${showTiles ? 'visible' : ''}`}>
+          <button onClick={() => changeLanguage('en')}>EN</button>
+          <button onClick={() => changeLanguage('fr')}>FR</button>
+          <button onClick={() => changeLanguage('el')}>EL</button>
+        </div>
+        <div className={`welcome-message ${showTiles ? 'invisible' : ''}`}>
+          <h1 className="App-title" onClick={toggleTiles}>{t('welcome')}</h1>
+        </div>
+        <div className={`call-for-action-message ${showTiles ? 'visible' : ''}`}>
+          <h1 className="App-title" onClick={toggleTiles}>{t('select_tile')}</h1>
+        </div>
+
+
       </header>
     </div>
   );
