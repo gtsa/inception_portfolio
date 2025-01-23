@@ -1,3 +1,8 @@
+* {
+  font-family: 'Ubuntu';
+  font-weight: 100;
+}
+
 .App {
   text-align: center;
 }
@@ -6,14 +11,14 @@
   position: relative;
   width: 35vmin;
   height: 35vmin;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .App-logo-swirl {
   height: 35vmin;
   position: absolute;
   top: 0;
-  right: -30px;
+  right: -40px;
   width: 120%;
   height: 120%;
 }
@@ -22,7 +27,7 @@
   height: 35vmin;
   position: absolute;
   top: 0;
-  right: -30px;
+  right: -40px;
   width: 120%;
   height: 120%;
 }
@@ -123,4 +128,78 @@
 .tile:hover {
   transform: scale(1.05);
   background-color: #b80697;
+}
+
+.language-switcher {
+  opacity: 0; /* Hidden by default */
+  position: absolute; /* Position the buttons relative to the viewport */
+  bottom: 10px; /* Adjust top positioning as needed */
+  left: 20px; /* Align to the very left */
+  display: flex; /* Keep the buttons inline */
+  text-orientation: sideways;
+  flex-direction: column; /* Stack buttons vertically */
+  transform: translateY(-20%); /* Adjust for perfect centering */
+}
+
+.language-switcher.visible {
+  opacity: 1; /* Fade in */
+  transition: opacity 5s ease; /* Smooth transition */
+}
+
+.language-switcher button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #1b1419;
+  color: #db5757;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transform: rotate(-90deg); /* Rotate buttons 90 degrees */
+  text-align: center;
+}
+
+.language-switcher button:hover {
+  background-color: #1b1419;
+  color: #b80697;
+  transform: rotate(-90deg) scale(1.05);
+}
+
+.welcome-message {
+  opacity: 1; /* Hidden by default */
+  position: absolute; /* Position the buttons relative to the viewport */
+  bottom: 10px; /* Adjust top positioning as needed */
+  right: 20px; /* Align to the very left */
+  font-weight: 100;
+  font-size: 12px;
+  color: #db5757;
+  transform: translateY(-10%); /* Adjust for perfect centering */
+  display: flex; /* Keep the buttons inline */
+  transition: opacity 0.5s ease-in; /* Smooth transition */
+}
+
+.welcome-message.invisible {
+  opacity: 0; /* Fade in */
+  pointer-events: auto; /* Enable interaction */
+  transition: opacity 0.0s ease-in; /* Smooth transition */
+}
+
+.call-for-action-message {
+  opacity: 0; /* Hidden by default */
+  position: absolute; /* Position the buttons relative to the viewport */
+  bottom: 10px; /* Adjust top positioning as needed */
+  right: 20px; /* Align to the very left */
+  font-weight: 100;
+  font-size: 12px;
+  color: #db5757;
+  transform: translateY(-10%); /* Adjust for perfect centering */
+  display: flex; /* Keep the buttons inline */
+  transition: opacity 0.0s ease-in; /* Smooth transition */
+}
+
+.call-for-action-message.visible {
+  opacity: 1; /* Fade in */
+  pointer-events: auto; /* Enable interaction */
+  transition: opacity 0.5s ease-in; /* Smooth transition */
 }

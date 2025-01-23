@@ -1,0 +1,14 @@
+{
+  "welcome": "Καλωσήρθατε!",
+  "select_tile": "Διαλέξτε Πλακίδιο!",
+  "error_fetching_links": "Error fetching links",
+  "app1": "Εφαρμογή 1",
+  "app2": "Εφαρμογή 2",
+  "api": "API",
+  "imosaic": "iMosaic",
+  "backlog": "Backlog",
+  "portfolio": "Πορτφόλιο",
+  "blog": "Blog",
+  "hub": "Κόμβος",
+  "python": "Python"
+}

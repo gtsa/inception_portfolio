@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome!",
+  "select_tile": "Select Tile",
+  "error_fetching_links": "Error fetching links",
+  "app1": "App1",
+  "app2": "App2",
+  "api": "API",
+  "imosaic": "iMosaic",
+  "backlog": "Backlog",
+  "portfolio": "Portfolio",
+  "blog": "Blog",
+  "hub": "Hub",
+  "python": "Python"
+}

@@ -1,0 +1,14 @@
+{
+  "welcome": "Bienvenu.e.s!",
+  "select_tile": "Choisissez un Toile",
+  "error_fetching_links": "Error fetching links",
+  "app1": "App 1",
+  "app2": "App 2",
+  "api": "API",
+  "imosaic": "iMosaic",
+  "backlog": "Backlog",
+  "portfolio": "Porte-feuile",
+  "blog": "Blog",
+  "hub": "Hub",
+  "python": "Python"
+}
