@@ -20,8 +20,8 @@ function App() {
   useEffect(() => {
     const fetchGreeting = async () => {
       try {
-        const response = await axios.get('/api/hello');
-        setLinks(response.data.links); // Expecting { app1: "App1", app2: "App2", ... }
+        const response = await axios.get('/api/dashboard_links');
+        setLinks(response.data.links);
       } catch (err) {
         setError('Error fetching links');
         console.error(err);
@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   const toggleTiles = () => {
-    setShowTiles((prev) => !prev); // Toggle the state to show/hide tiles
+    setShowTiles((prev) => !prev);
   };
 
   const changeLanguage = (lang: string) => {
