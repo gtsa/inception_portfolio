@@ -1,8 +1,8 @@
-class GreetingsController < ApplicationController
-  # Since we're building an API, skip CSRF protection
+class DashboardController < ApplicationController
+  # Since we're building an API, we skip CSRF protection
   # protect_from_forgery with: :null_session
 
-  def hello
+  def links
     links = {
       app1: I18n.t('links.app1'),
       app2: I18n.t('links.app2'),
@@ -12,7 +12,7 @@ class GreetingsController < ApplicationController
       portfolio: I18n.t('links.portfolio'),
       blog: I18n.t('links.blog'),
       hub: I18n.t('links.hub'),
-      python_apps: I18n.t('links.python_apps'),
+      python: I18n.t('links.python'),
     }
 
     render json: {

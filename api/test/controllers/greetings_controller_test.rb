@@ -1,8 +1,8 @@
 require "test_helper"
 
-class GreetingsControllerTest < ActionDispatch::IntegrationTest
+class DashboardControllerTest < ActionDispatch::IntegrationTest
   test "should get hello" do
-    get greetings_hello_url
+    get dashboard_links_url
     assert_response :success
   end
 end
