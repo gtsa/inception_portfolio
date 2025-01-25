@@ -29,8 +29,8 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  greeting: "Hello World"
+el:
+  greeting: "Γειά σου Κόσμε"
   links:
     app1: "App1"
     app2: "App2"
@@ -42,6 +42,6 @@ en:
     hub: "Hub"
     python: "Python"
   errors:
-    fetching_links: "Error fetching links"
-    retry: "Retry"
-    unexpected: "An unexpected error occurred. Please try again later."
+    fetching_links: "Σφάλμα κατά την ανάκτηση των συνδέσμων"
+    retry: "Προσπάθησε ξανά"
+    unexpected: "Προέκυψε ένα απρόβλεπτο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα."

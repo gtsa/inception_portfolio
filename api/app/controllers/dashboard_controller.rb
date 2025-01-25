@@ -15,8 +15,12 @@ class DashboardController < ApplicationController
       python: I18n.t('links.python'),
     }
 
-    render json: {
-      links: links
-    }
+    render json: { links: links }, status: :ok
+  rescue I18n::MissingTranslationData => e
+    Rails.logger.error("Translation error: #{e.message}")
+    render json: { message: 'Translation data missing.' }, status: :internal_server_error
+  rescue StandardError => e
+    Rails.logger.error("Unexpected error: #{e.message}")
+    render json: { message: 'An unexpected error occurred.' }, status: :internal_server_error
   end
 end
