@@ -18,17 +18,22 @@ function App() {
 
 
   useEffect(() => {
-    const fetchGreeting = async () => {
+    const fetchLinks = async () => {
       try {
         const response = await axios.get('/api/dashboard_links');
         setLinks(response.data.links);
+        setError(null); // Clear any previous errors
       } catch (err) {
-        setError('Error fetching links');
-        console.error(err);
+        if (axios.isAxiosError(err) && err.response) {
+          setError(`Error ${err.response.status}: ${err.response.data.message}`);
+        } else {
+          setError('An unexpected error occurred. Please try again later.');
+        }
+        console.error('Error fetching dashboard links:', err);
       }
     };
 
-    fetchGreeting();
+    fetchLinks();
   }, []);
 
   const toggleTiles = () => {
@@ -42,6 +47,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+      {error && (
+        <div className="error-message">
+          {error}
+        </div>
+      )}
+
         <div className="App-logo-wrapper" onClick={toggleTiles}>
           <img src={logo_swirl} className="App-logo-swirl" alt="logo-swirl" />
           <img src={logo_otter} className="App-logo-otter" alt="logo-otter" />
