@@ -63,6 +63,11 @@ services:
     volumes:
       - ../blog:/usr/share/nginx/html:ro
 
+  portfolio:
+    image: nginx:alpine
+    volumes:
+      - ../inception:/usr/share/nginx/html:ro
+
   python:
     image: nginx:alpine
     volumes:
