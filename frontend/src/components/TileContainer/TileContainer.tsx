@@ -18,12 +18,12 @@ const TileContainer: React.FC<TileContainerProps> = ({ links, visible }) => {
         Object.entries(links).map(([key, value], index) => (
           <div key={index} className="tile">
             <a
-              href={`http://${key.toLowerCase()}.localhost:3000`}
+              href={`http://${value.toLowerCase()}.localhost:3000`}
               target="_blank"
               rel="noopener noreferrer"
               className="tile-link"
             >
-              {t(value.toLowerCase())}
+              {t(key.toLowerCase())}
             </a>
           </div>
         ))}
