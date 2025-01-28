@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="webpack-logo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="1024"
+   height="1024">
+  <metadata
+     id="metadata62">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo-on-white-bg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs60" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview58"
+     showgrid="false"
+     inkscape:zoom="0.18815252"
+     inkscape:cx="1374.3879"
+     inkscape:cy="431.22766"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg56" />
+  <title
+     id="title46">logo-on-white-bg</title>
+  <path
+     d="M 516.15625,6.1669613 970.22614,260.30817 V 768.70666 L 516.15625,1022.8479 62.086372,768.70666 V 260.30817 Z"
+     id="path48"
+     style="fill:#ffffff;stroke-width:1.16713536"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 889.1506,751.17572 531.17458,951.56295 V 795.52557 L 754.22028,674.0858 Z m 24.52212,-21.94283 V 310.23083 l -130.94108,74.88401 v 269.3502 z M 141.75393,751.17572 499.72995,951.56295 V 795.52557 L 276.56693,674.0858 Z M 117.23181,729.23289 V 310.23083 l 130.94108,74.88401 v 269.3502 z M 132.60213,283.06361 499.72995,77.56798 v 150.8129 l -235.24809,128.05744 -1.87729,1.0449 z m 765.70027,0 L 531.17458,77.56798 v 150.8129 l 235.24809,127.94134 1.87729,1.0449 z"
+     id="path50"
+     style="fill:#8ed6fb;stroke-width:1.16713536"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 499.72995,759.99923 279.61753,640.18483 V 402.99411 l 220.11242,125.73546 z m 31.44463,0 220.11243,-119.6983 V 402.99411 L 531.17458,528.72957 Z M 515.45226,519.67383 Z M 294.51853,375.5947 515.45226,255.43199 736.38601,375.5947 515.45226,501.79456 Z"
+     id="path52"
+     style="fill:#1c78c0;stroke-width:1.16713536"
+     inkscape:connector-curvature="0" />
+</svg>

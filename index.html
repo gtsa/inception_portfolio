@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <!-- Title-->
+  <title>George Tsagiannis - Personal Portfolio</title>
+  <!-- Description-->
+  <meta name="description" content="Personal Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <!-- Web fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+  <!-- Awesome Fonts-->
+  <script src="https://kit.fontawesome.com/ec906765cd.js" crossorigin="anonymous"></script>
+  <!-- CSS vendors-->
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/lity.min.css">
+  <link rel="stylesheet" href="css/simplebar.min.css">
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS Color scheme-->
+  <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkmagenta.css">
+  <!-- Custom CSS (Add your custom CSS styles to this file)-->
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/content-loader.js" ></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body class="theme-dark">
+  <!-- Preloader-->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+    </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="">
+      <!-- Navbar Logo-->
+      <img class="img-fluid" src="img/img-logo.png" alt="Logo"></a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about" id="aboutLink"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume"  id="cvLink"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" id="contactLink"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home-->
+  <section class="home-area element-cover-bg" id="home" style="background-image:url(img/home.jpg)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 home-content text-center">
+          <h1 class="home-name" id="name1"></h1>
+          <div style="width: max-content; margin: auto;">
+            <div class="typewriter">
+              <h4 class="home-headline" id="landing"></h4>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-wrapper">
+      <!-- Languages list-->
+      <div class="fixed-block block-left">
+        <ul class="list-unstyled languages-list">
+            <div class="single-language">
+              <button onclick="changeLanguage('el')">
+                EL
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="single-language">
+              <button onclick="changeLanguage('fr')">
+                FR
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="single-language">
+              <button onclick="changeLanguage('en')">
+                EN
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Social media icons-->
+      <div class="fixed-block block-right">
+        <ul class="list-unstyled social-icons">
+          <li><a href="https://github.com/gtsa/" target="_blank"><i class="icon ion-logo-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gtsagiannis/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/tsa_yanis" target="_blank"><i class="icon ion-logo-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- About lightbox-->
+  <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description" id="descriptionAbout"></p>
+                  <h2 class="section-title" id="titleAbout"></h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/info-img.jpg" alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle" id="subtitleInfo"></h2>
+                    <h6 class="content-title" id="titleInfo"></h6>
+                    <div class="content-description">
+                      <p id="descriptionInfo"></p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span id="nom"></span>
+                          <p id="name2"></p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto:gtsagiannis@gmail.com" target="_blank">gtsagiannis@gmail.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span id="based"></span>
+                          <p id="cityBased"></p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span id="from"></span>
+                          <p id="cityOrigin"></p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="files/CV_TSAGIANNIS.pdf" role="button" id="download1"></a>
+                      <ul class="list-unstyled list-inline content-follow">
+                        <li class="list-inline-item"><a href="https://github.com/gtsa/" target="_blank"><i class="icon ion-logo-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/gtsagiannis/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/tsa_yanis" target="_blank"><i class="icon ion-logo-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume lightbox-->
+  <div class="lightbox-wrapper" id="resume" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description" id="sectionDescription"></p>
+                  <h2 class="section-title" id="sectionTitle"></h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Resume section-->
+            <div class="resume-section single-section">
+              <div class="row">
+                <!-- Education part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block education">
+                    <h3 class="col-title" id="education"></h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title" id="education1Degree"></h6>
+                      <h5 class="item-title" id="education1Title"></h5><span class="item-details">Le Wagon / 2022</span>
+                      <p class="item-description" id="education1Description"></p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title" id="education2Degree"></h6>
+                      <h5 class="item-title" id="education2Title"></h5><span class="item-details">Université Paris Nanterre (Paris X) / 2017 - 2019</span>
+                      <p class="item-description" id="education2aDescription"></p>
+                      <p class="item-description" id="education2bDescription"></p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title" id="education3Degree"></h6>
+                      <h5 class="item-title" id="education3Title"></h5><span class="item-details">Sorbonne Université (Paris IV) / 2011 - 2014</span>
+                      <p class="item-description" id="education3Description"></p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title" id="education4Degree"></h6>
+                      <h5 class="item-title" id="education4Title"></h5><span class="item-details" id="education4School"></span>
+                      <p class="item-description" id="education4Description"></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Experience part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block experience">
+                    <h3 class="col-title" id="experience"></h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title" id="experience1Title"></h5><span class="item-details">Coventry University / 2021 - 2022</span>
+                      <p class="item-description" id="experience1Description"></p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title" id="experience2Title"></h5><span class="item-details">4cast-team / 2020</span>
+                      <p class="item-description" id="experience2Description"></p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title" id="experience3Title"></h5><span class="item-details">IFOP / 2018 - 2019</span>
+                      <p class="item-description" id="experience3Description"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <a class="btn content-download button-main button-scheme" href="files/CV_TSAGIANNIS.pdf" role="button" id="download2"></a>
+            </div>
+            <!-- Skills section-->
+            <div class="skills-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <!-- <p class="section-description">My level of knowledge in some tools</p> -->
+                    <p class="section-description" id="languages"></p>
+                    <h2 class="section-title" id="mySkills"></h2>
+                  </div>
+                </div>
+                <div class="container technologies">
+                  <div class="col-12">
+                    <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+                      <li class="list-inline-item tab-active" data-filter="*">All</li>
+                      <li class="list-inline-item" data-filter=".web">Web</li>
+                      <li class="list-inline-item" data-filter=".software">Software</li>
+                      <li class="list-inline-item" data-filter=".data">Data</li>
+                    </ul>
+                  </div>
+                  <div class="skills-grid">
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/ruby-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.ruby-lang.org/" target="_blank"><b>Ruby</b></a>
+                            </p>
+                            <p>
+                              <em><b>Education:</b></em><br>Le Wagon Bootcamp
+                            </p>
+                            <p>
+                              <em><b>Portfolio Projects:</b></em><br>BeatsClub Mobile Website, Celebs4U Mobile Website
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/rails-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://rubyonrails.org" target="_blank"><b>Rails</b></a>
+                            </p>
+                            <p>
+                              <em><b>Education:</b></em><br>Le Wagon Bootcamp<br>
+                            </p>
+                            <p>
+                              <em><b>Portfolio Projects:</b></em><br>BeatsClub Mobile Website, Celebs4U Mobile Website
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web data software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/python-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.python.org" target="_blank"><b>Python</b></a>
+                            </p>
+                            <p>
+                              <p>
+                                TensorFlow, Scikit-Learn, Pandas, Numpy, SciPy
+                              </p>
+                              <p>
+                                Flask
+                              </p>
+                              <p>
+                                <em><b>Experience:</b></em><br>GUI Developper
+                              <!-- Trigger/Open The Modal -->
+                              <span onclick="openModalPortfolioDesc('modalSkillsDesc3')" class="content-more" style="cursor: pointer;"> [more...]</span>
+                            </p>
+                            <!-- The Modal -->
+                            <div id="modalSkillsDesc3" class="modal-portfolio-desc">
+
+                              <!-- Modal content -->
+                              <div class="modal-portfolio-desc-content">
+                                <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                                <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px; text-align: left;">
+                                  <u>Education/Certifications:</u>
+                                  <ul>
+                                    <li>N.T.U.A. (MEng in Applied Mathematics and Physics)</li>
+                                    <li>Université Paris Nanterre (MRes in Computational Social Sciences)</li>
+                                    <li>IBM Data Science Professional Certificate</li>
+                                  </ul>
+                                  <u>Libraries/Frameworks:</u>
+                                  <ul>
+                                    <li>TensorFlow, Scikit-Learn, Pandas, Numpy, SciPy</li>
+                                    <li>Flask, Tkinter</li>
+                                  </ul>
+                                  <u>Experience:</u>
+                                  <ul>
+                                    <li>GUI Developper | Coventry University</li>
+                                    <li>Jr ML Engineer | 4cast-team</li>
+                                    <li>Intern Risk Data Analyst | NCSR "Demokritos", Greece​</li>
+                                    <li>Various Computational Science during my undergraduate and postgraduate curriculum, Several MOOCs</li>
+                                  </ul>
+                                  <u>Portfolio Projects:</u>
+                                  <ul>
+                                    <li>VisROC 2.0 (cross-plarform Graphic User Interface app developed in Python uisng Tcl/Tk framework)</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/javascript-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><b>JavaScript</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              <b>AJAX</b>
+                              <br><b>Stimulus</b>
+                              <br><b>jQuery</b>
+                            </p>
+                            <p>
+                              <em><b>Portfolio Projects:</b></em><br>Inception (Personal Portfolio Website)
+
+                              <span onclick="openModalPortfolioDesc('modalSkillsDesc4')" class="content-more" style="cursor: pointer;"> [more...]</span>
+                            </p>
+                            <!-- The Modal -->
+                            <div id="modalSkillsDesc4" class="modal-portfolio-desc">
+
+                              <!-- Modal content -->
+                              <div class="modal-portfolio-desc-content">
+                                <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                                <div style="line-height: 1.5; padding-top:20px; padding-right:10px; text-align: left;">
+                                  <u>Education/Certifications:</u>
+                                  <ul><li>Wagon Bootcamp</li></ul>
+                                  <u>Technologies/Frameworks/Libraries:</u>
+                                  <ul>
+                                    <li>AJAX</li>
+                                    <li>Stimulus</li>
+                                    <li>jQuery</li>
+                                  </ul>
+                                  <u>Portfolio Projects:</u>
+                                  <ul>
+                                    <li>BeatsClub Mobile Website</li>
+                                    <li>Celebs4U Mobile Website</li>
+                                    <li>Inception (Personal Portfolio Website)</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/html5-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.w3.org/html/" target="_blank"><b>HTML5</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              <em><b>Frameworks:</b></em><br>Bootstrap
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/css3-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.w3schools.com/css/" target="_blank"><b>CSS3</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              <em><b>Frameworks:</b></em><br>Bootstrap,<br>Sass,<br>SCSS
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item data web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/mysql-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.mysql.com/" target="_blank"><b>MySQL</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              <em><b>Experience:</b></em><br>
+                              - Data Analyst - IFOP<br>
+                              - MEng Thesis - NTUA<br>
+                              <span onclick="openModalPortfolioDesc('modalSkillsDesc7')" class="content-more" style="cursor: pointer;"> [more...]</span>
+                            </p>
+                            <!-- The Modal -->
+                            <div id="modalSkillsDesc7" class="modal-portfolio-desc">
+
+                              <!-- Modal content -->
+                              <div class="modal-portfolio-desc-content">
+                                <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                                <div style="line-height: 1.5; padding-top:20px; padding-right:10px; text-align: left">
+                                  <u>Experience:</u>
+                                  <ul>
+                                    <li> MEng Thesis at NTUA, Greece:<br> Exploring, analysing, interpreting and modelling historical economic, financial and industrial data</li>
+                                    <li> Intern Data Analyst at IFOP:<br> Exploring, analysing, interpreting and modelling demographic and market datasets</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item data web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/postgresql-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.postgresql.org" target="_blank"><b>PostgreSQL</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              <em><b>Experience:</b></em><br>
+                              - Jr ML Engineer |<br> 4cast-team<br>
+                            </p>
+                            <p>
+                              <em><b>Portfolio Projects:</b></em><br>
+                              - BeatsClub Mobile Website<br>
+                              <span onclick="openModalPortfolioDesc('modalSkillsDesc8')" class="content-more" style="cursor: pointer;"> [more...]</span>
+                            </p>
+                            <!-- The Modal -->
+                            <div id="modalSkillsDesc8" class="modal-portfolio-desc">
+
+                              <!-- Modal content -->
+                              <div class="modal-portfolio-desc-content">
+                                <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                                <div style="line-height: 1.5; padding-top:20px; padding-right:10px; text-align: left">
+                                  <u>Education/Certifications:</u>
+                                  <ul>
+                                    <li>Le Wagon Bootcamp</li>
+                                  </ul>
+                                  <u>Experience:</u>
+                                  <ul>
+                                    <li> Junior Machine Learning Engineer | 4cast-team</li>
+                                  </ul>
+                                  <u>Portfolio Projects</u>
+                                  <ul>
+                                    <li>BeatsClub Mobile Website</li>
+                                    <li>Celebs4U Mobile Website</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web data software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/c+-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="http://cppreference.com" target="_blank"><b>C++</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              Boost
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item data">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/r-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.r-project.org/" target="_blank"><b>R</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                              - Data Manipulation<br>
+                              - Reproducible Research<br>
+                              - Machine Learnjng<br>
+                              - NLP
+                            </p>
+                            <p>
+                              <em><b>Experience</b></em>
+                              <span onclick="openModalPortfolioDesc('modalSkillsDesc10')" class="content-more" style="cursor: pointer;"> [more...]</span>
+                            </p>
+                            <!-- The Modal -->
+                            <div id="modalSkillsDesc10" class="modal-portfolio-desc">
+
+                              <!-- Modal content -->
+                              <div class="modal-portfolio-desc-content">
+                                <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                                <div style="line-height: 1.5; padding-top:20px; padding-right:10px; text-align: left">
+                                  <u>Education/Certifications:</u>
+                                  <ul>
+                                    <li>N.T.U.A. (MEng in Applied Mathematics and Physics)</li>
+                                    <li>Université Paris Nanterre (MRes in Computational Social Sciences)</li>
+                                    <li>The Johns Hopkins University (Data Science Specialization)</li>
+                                  </ul>
+                                  <u>Various R Packages and Tools for:</u>
+                                  <ul>
+                                    <li>Data Manipulation</li>
+                                    <li>Reproducible Research</li>
+                                    <li>Machine Learnjng</li>
+                                    <li>Natural Language Processing</li>
+                                    <li>Data Visualisation (ggplot2, lattice, plot.ly, Leaflet)</li>
+                                    <li>Language APIs and Web frameworks: Shiny, shinyjs, rPython</li>
+                                  </ul>
+                                  <u>Experience:</u>
+                                  <ul>
+                                    <li>Intern Text Data Analyst at IFOP​: Data modelling, exploratory analysis and definition of model ingestion rules for various NLP techniques (Topic Modeling, Text classification, Entity Recognition) applied to raw text datasets</li>
+                                    <li>MRes Thesis at Univ. Paris-Nanterre: Topic Modeling and Text Analytics on very big historical text <em>corpora</em></li>
+                                  </ul>
+                                  <u>Portfolio Projects:</u>
+                                  <ul>
+                                    <li>Next Word Prediction</li>
+                                    <li>Iris App</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item data">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/shiny-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://shiny.rstudio.com/" target="_blank"><b>Shiny</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item data">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/webpack-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://webpack.js.org/" target="_blank"><b>webpack</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/heroku-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.heroku.com/" target="_blank"><b>Heroku</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                            <p>
+                             </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web data">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/s3-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://aws.amazon.com/s3/" target="_blank"><b>Amazon S3</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web data">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/ec2-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://aws.amazon.com/ec2/" target="_blank"><b>Amazon Elastic Compute Cloud</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/lambda-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.serverless.com/framework/docs/providers/aws/guide/functions" target="_blank"><b>Lambda - <br>Serverless Framework</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/nginx.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.nginx.com/" target="_blank"><b>NGiИX</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item web data software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/git-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://git-scm.com/" target="_blank"><b>Git</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/bash.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.gnu.org/software/bash/" target="_blank"><b>Bash</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item software web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/ssh.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.ssh.com/" target="_blank"><b>Secure Shell</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item software web">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/tmux.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://github.com/tmux/tmux/wiki" target="_blank"><b>tmux</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/linux-logo.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.linux.org/" target="_blank"><b>GNU/Linux</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="skills-grid-item software">
+                      <div class="portfolio-item portfolio-wrapper">
+                        <img class="img-modal-portfolio img-fluid" alt="Item" src="img/technologies-logos/tcl-tk.svg">
+                          <div class="item-content" style="padding-top:15px">
+                            <p class="content-title">
+                              <a href="https://www.tcl.tk/" target="_blank"><b>Tcl/Tk</b></a>
+                            </p>
+                            <!-- Trigger/Open The Modal -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio lightbox-->
+  <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Showcasing some of my best work</p>
+                  <h2 class="section-title">Portfolio</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section-->
+            <div class="portfolio-section single-section">
+              <div class="row">
+                <!-- Filter nav-->
+                <div class="col-12">
+                  <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+                    <li class="list-inline-item tab-active" data-filter="*">All</li>
+                    <li class="list-inline-item" data-filter=".web">Web</li>
+                    <li class="list-inline-item" data-filter=".software">Software</li>
+                    <li class="list-inline-item" data-filter=".data">Data</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Thumbnail list-->
+              <div class="portfolio-grid row">
+
+                <!-- Single item 1-->
+
+                <div class="single-item col-6 col-lg-4 web">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/beatsclub_00.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">Beats Club Mobile Website Prototype</p>
+                        <!-- Trigger/Open The Modal -->
+                        <p onclick="openModalPortfolioDesc('modalPortfolioDesc1')" class="content-more" style="cursor: pointer;">More Info</p>
+
+                        <!-- The Modal -->
+                        <div id="modalPortfolioDesc1" class="modal-portfolio-desc">
+
+                          <!-- Modal content -->
+                          <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                                <img src="img/technologies-logos/html5-logo.svg" alt="html5" width="32" height="32" title="HTML5" style="border:none"/>
+                                <img src="img/technologies-logos/css3-logo.svg" alt="css3" width="32" height="32" title="CSS3" style="border:none"/>
+                                <img src="img/technologies-logos/javascript-logo.svg" alt="js" width="32" height="32" title="JavaScript" style="border:none"/>
+                                <img src="img/technologies-logos/ruby-logo.svg" alt="ruby" width="32" height="32" title="Ruby" style="border:none"/>
+                                <img src="img/technologies-logos/rails-logo.svg" alt="rails" width="32" height="32" title="Rails" style="border:none"/>
+                                <img src="img/technologies-logos/postgresql-logo.svg" alt="postgresql" width="32" height="32" title="PostgreSQL" style="border:none"/>
+                                <img src="img/technologies-logos/heroku-logo.svg" alt="heroku" width="32" height="32" title="Heroku" style="border:none"/>
+                              </p>
+                              <p>
+                                <b>Beats Club</b> is a music community social media prototype that was developed during my Le Wagon Full Stack Web Development Bootcamp. I worked on this project with a team of four peers, using Ruby on Rails, HTML, CSS, and JavaScript. The project aims to provide a platform for music enthusiasts to discover new music, connect with other music fans, and share their news, discoveries and ideas. The user interface is clean and modern, and it's easy to navigate. However, due to the time constraints and the scope of the project, the website is not designed to be fully responsive but it is intended to be used as a mobile device web app. The website is hosted on Heroku, a cloud platform that enables easy deployment and management of web applications.
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://my-beats-club.herokuapp.com/" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/AlexRMcKenzie/BEATS_CLUB" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal1');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Single Item Modal -->
+                <div id="Modal1" class="modal-portfolio">
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_01.jpg">
+                      <div class="caption-text">Caption Three</div>
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_02.jpg">
+                      <div class="caption-text">Caption Four</div>
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_04.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext" >5 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_05.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">6 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_06.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">7 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_07.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">8 / 8</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_08.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+
+                <!-- Single item 2-->
+
+                <div class="single-item col-6 col-lg-4 software">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/visroc_00.png">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">VisROC 2.0</p>
+                        <!-- Trigger/Open The Modal -->
+                        <p onclick="openModalPortfolioDesc('modalPortfolioDesc2')" class="content-more" style="cursor: pointer;">More Info</p>
+
+                        <!-- The Modal -->
+                        <div id="modalPortfolioDesc2" class="modal-portfolio-desc">
+
+                          <!-- Modal content -->
+                          <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                                <img src="img/technologies-logos/python-logo.svg" alt="python" width="32" height="32" title="Python 3" style="border:none"/>
+                                <img src="img/technologies-logos/tcl-tk.svg" alt="tcl-tk" width="32" height="32" title="Tcl/Tk (Tkinter)" style="border:none"/>
+                                <img src="img/technologies-logos/bash.svg" alt="bash" width="40" height="40" title="Bash" style="border:none"/>
+                                <img src="img/technologies-logos/html5-logo.svg" alt="html5" width="32" height="32" title="HTML5" style="border:none"/>
+                                <img src="img/technologies-logos/css3-logo.svg" alt="css3" width="32" height="32" title="CSS3" style="border:none"/>
+                              </p>
+                              <p>
+                                <b>VisROC 2</b>application project is a software development initiative resulting from a research collaboration between Coventry University, Paris Nanterre University and the University of Athens. As developer fo the project, I transcribed the mathematical algorithm from FORTRAN to Python, and developed a cross-platform standalone GUI application that automates and visualizes the diagnostic accuracy of binary quantitative tests.
+                                The application is designed to work on Windows, macOS, and Debian-based Linux operating systems, and it was built using Python and Tcl/Tk framework. The code for the application is available on <a href="https://github.com/gtsa/VisROC_2">Github</a> and it is open-source, allowing for easy collaboration and modification. The project resulted in the publication of a scientific paper in the journal <a href="https://doi.org/10.1016/j.cpc.2022.108492">Computer Physics Communications</a>, and it showcases my skills in software development, particularly in the use of Python and GUI frameworks, as well as my ability to work on research projects and contribute to scientific publications.
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p>Download for:</p>
+                        <p>
+                          <a href="files/VISROC_2.0.exe">
+                            <i class="fa-brands fa-windows"></i>
+                          </a>
+                          &nbsp;&nbsp;&nbsp;
+                          <a href="files/ViSROC_2.app.zip">
+                          <i class="fa-brands fa-apple"></i>
+                          </a>
+                          &nbsp;&nbsp;&nbsp;
+                          <a href="files/VISROC_2.0.elf">
+                          <i class="fa-brands fa-ubuntu"></i>
+                          </a>
+                        </p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/gtsa/VisROC_2" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal2');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Single Item Modal -->
+                <div id="Modal2" class="modal-portfolio">
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_01.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext" >2 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_02.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_03.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_04.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">5 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_05.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">6 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_06.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">7 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_07.gif">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">8 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_08.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">9 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_09.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">10 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_10.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">11 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc_11.png">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+
+                <!-- Single item 3-->
+                <div class="single-item col-6 col-lg-4 data">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/visroc-web_00.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">VisROC 2.0 Web App</p>
+                        <!-- Trigger/Open The Modal -->
+                        <p onclick="openModalPortfolioDesc('modalPortfolioDesc3')" class="content-more" style="cursor: pointer;">More Info</p>
+
+                        <!-- The Modal -->
+                        <div id="modalPortfolioDesc3" class="modal-portfolio-desc">
+
+                          <!-- Modal content -->
+                          <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                                <img src="img/technologies-logos/r-logo.svg" alt="r" width="32" height="32" title="R" style="border:none"/>
+                                <img src="img/technologies-logos/shiny-logo.svg" alt="shiny" width="32" height="32" title="Shiny" style="border:none"/>
+                                <img src="img/technologies-logos/javascript-logo.svg" alt="js" width="32" height="32" title="JavaScript" style="border:none"/>
+                              </p>
+                              <p>
+                                <b>VISROC 2.0 Web App</b> is developed using R and Shiny framework, designed for visualizing diagnostic accuracy of binary quantitative tests. The application is user-friendly and it is intended to be used in various disciplines, including medicine, physics of complex systems, geophysics, meteorology. This application was developed as a research project in collaboration with researchers from Coventry University, Paris Nanterre University, and the University of Athens (<a href="https://doi.org/10.1016/j.cpc.2022.108492">Computer Physics Communications</a>). To enhance the functionality of the application, I integrated additional JavaScript scripts and Bootstrap components within the Shiny framework, allowing for a more dynamic and interactive user experience. The application is hosted on shinyapps.io, a platform that allows easy deployment and management of Shiny applications.
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://gtsa.shinyapps.io/VISROC_2_0/" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/strichr/VISROC-2.0/tree/main/R" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal3');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Single Item Modal -->
+                <div id="Modal3" class="modal-portfolio">
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc-web_01.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc-web_02.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc-web_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/visroc-web_04.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+
+
+                <!-- Single item 4
+                <div class="single-item col-6 col-lg-4 web">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/beatsclub_04.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">Celebs4U Mobile Website</p>-->
+                        <!-- Trigger/Open The Modal -->
+                        <!-- <p onclick="openModalPortfolioDesc('modalPortfolioDesc4')" class="content-more" style="cursor: pointer;">More Info</p>-->
+
+                        <!-- The Modal -->
+                        <!-- <div id="modalPortfolioDesc4" class="modal-portfolio-desc"> -->
+
+                          <!-- Modal content -->
+                          <!-- <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://celebs4U" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/AlexRMcKenzie/CELEBS_4_U" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal4');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div> -->
+                <!-- Single Item Modal -->
+                <!-- <div id="Modal4" class="modal-portfolio"> -->
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <!-- <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_04.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_05.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_06.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div> -->
+
+
+                <!-- Single item 5-->
+                <!-- <div class="single-item col-6 col-lg-4 web">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/beatsclub_04.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">My Watchlist</p> -->
+                        <!-- Trigger/Open The Modal -->
+                        <!-- <p onclick="openModalPortfolioDesc('modalPortfolioDesc5')" class="content-more" style="cursor: pointer;">More Info</p> -->
+
+                        <!-- The Modal -->
+                        <!-- <div id="modalPortfolioDesc5" class="modal-portfolio-desc"> -->
+
+                          <!-- Modal content -->
+                          <!-- <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://mywatchlist.me" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/gtsa/rails-watch-list" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal5');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div> -->
+                <!-- Single Item Modal -->
+                <!-- <div id="Modal5" class="modal-portfolio"> -->
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <!-- <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_04.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_05.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_06.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div> -->
+
+
+                <!-- Single item 6-->
+                <div class="single-item col-6 col-lg-4 data">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/predictor_00.png">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">Next Word Prediction</p>
+                        <!-- Trigger/Open The Modal -->
+                        <p onclick="openModalPortfolioDesc('modalPortfolioDesc6')" class="content-more" style="cursor: pointer;">More Info</p>
+
+                        <!-- The Modal -->
+                        <div id="modalPortfolioDesc6" class="modal-portfolio-desc">
+
+                          <!-- Modal content -->
+                          <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                                <p>
+                                  <img src="img/technologies-logos/html5-logo.svg" alt="html" width="32" height="32" title="HTML5" style="border:none"/>
+                                  <img src="img/technologies-logos/css3-logo.svg" alt="css" width="32" height="32" title="CSS3" style="border:none"/>
+                                  <img src="img/technologies-logos/r-logo.svg" alt="r" width="32" height="32" title="R" style="border:none"/>
+                                  <img src="img/technologies-logos/shiny-logo.svg" alt="shiny" width="32" height="32" title="Shiny" style="border:none"/>
+                                </p>
+                              </p>
+                              <p>
+                                <b>NLP Next-Word Prediction App</b> is a web application that utilizes natural language processing (NLP) techniques and pre-trained models (<a href="https://rpubs.com/geotsa/NLP_Next-Word_Prediction_Algorithm_App_Presentation">based on an optimized stupid Back-off (λ=0.4) N-gram frequency algorithm</a>) to predict the next word in a sentence. The application is built using R and Shiny framework, offering a user-friendly interface for visitors to input their own sentences and get the prediction of the next word. As a developer, I implemented NLP techniques and pre-trained models to create a functional and user-friendly web application. This project showcases my ability to work with NLP and to implement pre-trained models in a Shiny application, making it a valuable tool for potential employers looking for developers with strong NLP and web development skills. The application is hosted on shinyapps.io, a platform that allows easy deployment and management of Shiny applications.
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://gtsa.shinyapps.io/NLP_Next-Word_Predicition_App/" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/gtsa/NLP_Next-Word_Prediction_Language_Model" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal6');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Single Item Modal -->
+                <div id="Modal6" class="modal-portfolio">
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 2</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/predictor_00.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 2</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/predictor_00.png">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+
+
+                <!-- Single item 7-->
+                <!-- <div class="single-item col-6 col-lg-4 data">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/beatsclub_05.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">Iris App</p> -->
+                        <!-- Trigger/Open The Modal -->
+                        <!-- <p onclick="openModalPortfolioDesc('modalPortfolioDesc7')" class="content-more" style="cursor: pointer;">More Info</p> -->
+
+                        <!-- The Modal -->
+                        <!-- <div id="modalPortfolioDesc7" class="modal-portfolio-desc"> -->
+
+                          <!-- Modal content -->
+                          <!-- <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://gtsa.shinyapps.io/Iris_App/" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/gtsa/Iris_dataset_Interactive_Regression--Shiny_Application" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal7');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div> -->
+                <!-- Single Item Modal -->
+                <!-- <div id="Modal7" class="modal-portfolio"> -->
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <!-- <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_04.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_05.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/beatsclub_06.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div> -->
+
+
+                <!-- Single item 8-->
+                <div class="single-item col-6 col-lg-4 web">
+                  <div class="portfolio-item portfolio-wrapper">
+                    <img class="img-modal-portfolio img-fluid" alt="Item" src="img/portfolio/inception_00.jpg">
+                      <div class="item-content" style="padding-top:15px">
+                        <p class="content-title">Inception</p>
+                        <!-- Trigger/Open The Modal -->
+                        <p onclick="openModalPortfolioDesc('modalPortfolioDesc8')" class="content-more" style="cursor: pointer;">More Info</p>
+
+                        <!-- The Modal -->
+                        <div id="modalPortfolioDesc8" class="modal-portfolio-desc">
+
+                          <!-- Modal content -->
+                          <div class="modal-portfolio-desc-content">
+                            <span class="lity-close" onclick="closeModalPortfolioDesc()"></span>
+                            <div style="line-height: 1.5; padding-top:20px; padding-left:10px; padding-right:10px">
+                              <p>
+                                <img src="img/technologies-logos/html5-logo.svg" alt="html5" width="32" height="32" title="HTML5" style="border:none"/>
+                                <img src="img/technologies-logos/css3-logo.svg" alt="css3" width="32" height="32" title="CSS3" style="border:none"/>
+                                <img src="img/technologies-logos/javascript-logo.svg" alt="js" width="32" height="32" title="JavaScript" style="border:none"/>
+                                <img src="img/technologies-logos/rwd-logo.svg" alt="rwd" width="32" height="32" title="Responsive Web Design" style="border:none"/>
+                                <img src="img/technologies-logos/nginx.svg" alt="nginx" width="40" height="40" title="NGINX" style="border:none"/>
+                                <img src="img/technologies-logos/captcha.svg" alt="recaptcha" width="32" height="32" title="reCAPTCHA" style="border:none"/>
+                              </p>
+                              <p>
+                                <b>Inception</b> is my personal portfolio website. It was created to highlight my skills and experience as a Full Stack Web and Software Developer, with a special focus on software development. Using HTML, CSS, and JavaScript, I designed and developed a responsive website that is easy to navigate and visually appealing. The website is served by Nginx web server software, ensuring high performance and stability. Visitors can find information about my background, education, and experience, as well as a selection of my projects.
+                                The website is SEO & Speed Optimized, and designed to work on various screen sizes and devices, such as desktop computers, laptops, tablets, and smartphones, using media queries and responsive design. It also includes a working Ajax contact form, allowing for easy communication with potential employers or clients. The contact form is secured by a CAPTCHA, which helps to prevent spam and bots, allowing for only legitimate inquiries to reach me.
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                        <p><a href="https://gtsagiannis.xyz" target="_blank"><b>Visit</b></a></p>
+                        <p>Online Repo&nbsp;<a href="https://github.com/gtsa/gtsa.github.io" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                        <p class="content-more" onclick="openModal('Modal8');currentSlide(1)" style="cursor: pointer;">More Images</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Single Item Modal -->
+                <div id="Modal8" class="modal-portfolio">
+                  <!-- <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>&times;</button> -->
+                  <span class="lity-close" onclick="closeModal()"></span>
+                  <div class="modal-portfolio-content">
+                    <div class="mySlides">
+                      <div class="numbertext" >1 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_01.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_02.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_03.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_04.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext" >5 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_05.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">6 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_06.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">7 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_07.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">8 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_08.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext" >9 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_09.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">10 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_10.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">11 / 11</div>
+                      <img class="img-modal-portfolio"  src="img/portfolio/inception_11.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact lightbox-->
+  <div class="lightbox-wrapper" id="contact" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Feel free to contact me anytimes</p>
+                  <h2 class="section-title">Get in Touch</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact section-->
+            <div class="contact-section single-section">
+              <div class="row">
+                <!-- Contact form-->
+                <div class="col-12 col-lg-7">
+                  <form class="contact-form" id="contact-form" action="https://formspree.io/f/mrgvzkjd" method="POST">
+                    <h4 class="content-title">Message Me</h4>
+                    <div class="row">
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message"  name="message" placeholder="Message" rows=5 required=""></textarea></div>
+                      <div class="col-12 form-submit">
+                        <button class="btn g-recaptcha button-main button-scheme" data-sitekey="6LdzifAjAAAAALAXTG4i4HSmU2GLaY_Q37Uy2ZGZ" data-callback='onSubmit'data-action='submit'id="contact-submit" type="submit">Send Message</button>
+                        <!-- <button class="btn g-recaptcha button-main button-scheme" id="contact-submit" type="submit">Send Message</button> -->
+                        <p class="contact-feedback"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Contact info-->
+                <div class="col-12 col-lg-5">
+                  <div class="contact-info">
+                    <h4 class="content-title">Contact Info</h4>
+                    <p class="info-description">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                    <ul class="list-unstyled list-info">
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Name</h6><span class="info-value">George Tsagiannis</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Location</h6><span class="info-value">NW2, London, United Kingdom</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Call Me</h6><span class="info-value"><a href="tel:+447470656386" target="_blank">+44 7470 656386</a></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-send"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Email Me</h6><span class="info-value"><a href="mailto:gtsagiannis@gmail.com" target="_blank">gtsagiannis@gmail.com</a></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/animatedModal.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/lity.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/translate.js"></script>
+  <script src="js/modal-portfolio.js"></script>
+  <script src="js/modal-portfolio-desc.js"></script>
+  <script src="js/isotope-skills.js"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
+</body>
+
+</html>
+</body>
+
+</html>
