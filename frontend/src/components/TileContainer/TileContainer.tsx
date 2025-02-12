@@ -17,7 +17,7 @@ const TileContainer: React.FC<TileContainerProps> = ({ links, visible }) => {
       {links &&
         Object.entries(links).map(([key, value], index) => (
           <a
-              href={`http://${value.toLowerCase()}.localhost:3000`}
+              href={`http://${value.toLowerCase()}.otter-verse.com`}
               target="_blank"
               rel="noopener noreferrer"
               className="tile-link"
