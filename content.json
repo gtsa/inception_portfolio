@@ -15,7 +15,7 @@
     "nom": "Name:",
     "name2": "George Tsagiannis",
     "based": "Based in:",
-    "cityBased": "Paris,France",
+    "cityBased": "London, UK",
     "from": "From:",
     "cityOrigin": "Athens, Greece",
     "sectionDescription": "Check out my Resume",
@@ -43,7 +43,8 @@
     "experience3Title": "Statistical Text Data Analyst",
     "experience3Description": "- Manipulate, analyse and interpret demographic and market datasets<br>- Data modelling, exploratory analysis and definition of model ingestion rules<br>- Worked with NLP techniques (Topic Modeling, Text classification, Entity Recognition) applied to raw text datasets (contact with IDHES research team)",
     "languages": "Languages, Technologies and Tools",
-    "mySkills": "My Skills"
+    "mySkills": "My Skills",
+    "download-cv-or-qr": "Or scan this QR code:"
   },
   "fr": {
     "download1": "Téléchargez mon CV",
@@ -89,7 +90,8 @@
     "experience3Title": "Analyste de données textuelles statistiques",
     "experience3Description" : "- Manipuler, analyser et interpréter des ensembles de données démographiques et de marché<br>- Modélisation des données, analyse exploratoire et définition des règles d'ingestion des modèles<br>- A travaillé avec les techniques NLP (Topic Modeling, Text classification, Entity Reconnaissance) appliquée aux jeux de données texte brut (contact avec l'équipe de recherche de l'IDHES)",
     "languages" : "Langages, Technologies et Outils",
-    "mySkills": "Mes compétences"
+    "mySkills": "Mes compétences",
+    "download-cv-or-qr": "Ou scannez ce QR code :"
   },
   "el": {
     "download1": "Λήψη CV",
@@ -107,7 +109,7 @@
     "nom": "Όνομα:",
     "name2": "Γιώργος Τσαγιάννης",
     "based": "Με βάση:",
-    "cityBased": "Παρίσι, Γαλλία",
+    "cityBased": "London, UK",
     "from": "Από:",
     "cityOrigin": "Αθήνα",
     "sectionDescription": "Δείτε το βιογραφικό μου",
@@ -135,6 +137,7 @@
     "experience3Title": "Statistical Text Data Analyst",
     "experience3Description": "- Χειρισμός, ανάλυση και ερμηνεία δημογραφικών δεδομένων και δεδομένων αγοράς<br>- Μοντελοποίηση δεδομένων, διερευνητική ανάλυση και ορισμός κανόνων απορρόφησης μοντέλων<br>- Τεχνικές NLP (Topic Modeling, Text classification, Entity Recognition) σε δεδομένα ακατέργαστου κειμένου (συνεργασία με την ερευνητική ομάδα IDHES)",
     "languages": "Γλώσσες, Τεχνολογίες και Εργαλεία",
-    "mySkills": "Δεξιότητες"
+    "mySkills": "Δεξιότητες",
+    "download-cv-or-qr": "Ή σαρώστε αυτό το QR code:"
   }
 }
