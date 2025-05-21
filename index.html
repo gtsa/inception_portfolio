@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
   <!-- Required meta tags-->
@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
   <!-- Awesome Fonts-->
   <script src="https://kit.fontawesome.com/ec906765cd.js" crossorigin="anonymous"></script>
+  <!-- QR Code Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
   <!-- CSS vendors-->
   <link rel="stylesheet" href="css/bootstrap-custom.css">
   <link rel="stylesheet" href="css/ionicons.min.css">
@@ -158,12 +160,23 @@
                         </div>
                       </div>
                     </address>
-                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#" role="button" id="download1"></a>
-                      <ul class="list-unstyled list-inline content-follow">
-                        <li class="list-inline-item"><a href="https://github.com/gtsa/" target="_blank"><i class="icon ion-logo-github"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/gtsagiannis/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/tsa_yanis" target="_blank"><i class="icon ion-logo-twitter"></i></a></li>
-                      </ul>
+                    <div style="position: relative; display: inline-block;"></div>
+                      <div class="d-block d-sm-flex align-items-center download-container">
+                        <a class="btn content-download button-main button-scheme" href="#" role="button" id="download1"></a>
+                        <div class="cv-popover" id="cvPopover1">
+                          <a href="files/CV_TSAGIANNIS_en.pdf" target="_blank" download class="btn button-main button-scheme" id="download1Link">
+                            <i class="fa fa-download"></i>
+                          </a>
+                          <hr style="margin: 10px 0;">
+                          <p style="margin-bottom: 5px;" id="download-cv-or-qr"></p>
+                          <canvas id="qrPopover1" width="120" height="120" style="margin: auto;"></canvas>
+                        </div>
+                        <ul class="list-unstyled list-inline content-follow">
+                          <li class="list-inline-item"><a href="https://github.com/gtsa/" target="_blank"><i class="icon ion-logo-github"></i></a></li>
+                          <li class="list-inline-item"><a href="https://www.linkedin.com/in/gtsagiannis/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+                          <li class="list-inline-item"><a href="https://twitter.com/tsa_yanis" target="_blank"><i class="icon ion-logo-twitter"></i></a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -173,7 +186,6 @@
         </div>
       </div>
     </div>
-  </div>
   <!-- Resume lightbox-->
   <div class="lightbox-wrapper" id="resume" data-simplebar>
     <div class="container">
@@ -242,7 +254,17 @@
                 </div>
               </div>
               <br>
-              <a class="btn content-download button-main button-scheme" href="#" role="button" id="download2"></a>
+              <div class="download-container">
+                <a class="btn content-download button-main button-scheme" href="#" role="button" id="download2"></a>
+                <div class="cv-popover" id="cvPopover2">
+                  <a href="files/CV_TSAGIANNIS_en.pdf" target="_blank" download class="btn button-main button-scheme" id="download2Link">
+                    <i class="fa fa-download"></i>
+                  </a>
+                  <hr style="margin: 10px 0;">
+                  <p style="margin-bottom: 5px;" id="download-cv-or-qr"></p>
+                  <canvas id="qrPopover2" width="120" height="120" style="margin: auto;"></canvas>
+                </div>
+              </div>
             </div>
             <!-- Skills section-->
             <div class="skills-section single-section">
@@ -1472,6 +1494,16 @@
       </div>
     </div>
   </div>
+  <div id="cvModal">
+    <span class="close" onclick="closeCvModal()">&times;</span>
+    <div class="modal-content">
+      <h4 id="modalCvTitle">Download my CV</h4>
+      <button class="btn button-main button-scheme" onclick="startDownload()">Download</button>
+      <button class="btn button-main button-scheme" onclick="generateQRCode()">QR Code</button>
+      <canvas id="qrCanvas" style="margin-top: 10px;"></canvas>
+    </div>
+  </div>
+  
   <!-- Scripts-->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -1485,6 +1517,7 @@
   <script src="js/main.js"></script>
   <script src="js/modal-portfolio.js"></script>
   <script src="js/modal-portfolio-desc.js"></script>
+  <script src="js/modal-cv-download.js"></script>
   <script src="js/isotope-skills.js"></script>
   <script>
     function onSubmit(token) {

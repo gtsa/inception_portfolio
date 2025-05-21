@@ -1,0 +1,14 @@
+.cv-popover {
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    background: black;
+    padding: 24px;
+    border-radius: 10px;
+    border: solid 1px #70357a73;
+    display: none;
+    text-align: center;
+    width: 20em;
+    box-shadow: 0 1px 100px 10px #70357a39;
+  }
+  

@@ -2138,7 +2138,7 @@ hr {
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;>
+  text-align: center;
 }
 
 /* Next & previous buttons */
@@ -2269,4 +2269,9 @@ img.hover-shadow {
   .modal-portfolio-desc-content {
   width: 65%;
   }
+}
+
+.download-container {
+  position: relative;
+  display: inline-block;
 }
