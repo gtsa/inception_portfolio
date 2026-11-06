@@ -135,6 +135,10 @@
           $('#' + this.modalTarget).css({
             'animationFillMode': 'none'
           });
+
+          if (this.modalTarget === 'resume') {
+            $('#resume .skills-grid').isotope('layout');
+          }
         },
         beforeClose: function() {
           $('#overlay-effect').addClass('animate-down').removeClass('animate-up');
