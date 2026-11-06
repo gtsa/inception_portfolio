@@ -9,7 +9,7 @@ fetchContentFromJSON().then(data => {
   // Check if a hash value exists in the URL
   if (!["#el", "#fr"].includes(window.location.hash)) {
     keys = Object.keys(language.en)
-    htmls = ["titleInfo", "descriptionInfo", "experience1Description", "experience2Description", "experience3Description"]
+    htmls = ["titleInfo", "descriptionInfo", "experience1Description", "experience2Description", "experience3Description", "experience4Description","experience5Description"]
     texts = keys.filter(key => !htmls.includes(key))
     // Set the content of the webpage
     texts.forEach((key) => {

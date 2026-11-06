@@ -29,19 +29,29 @@
     "education2aDescription": "- Advanced Technology in the Humanities and Social Sciences, Topic Modeling, Machine Learning, NLP, Text Mining & Analytics",
     "education2bDescription": "- MRes. Thesis : \"Computational (Topic Modeling, Text Analytics) & traditional source analysis",
     "education3Degree": "BA (Licence)",
-    "education3Title":"Science-Technology-Society",
-    "education3Description": "Special Interests: Innovation, Alternative Modernity, AI, Decision Making Limits, Technoscience, Technosocial process, Deliberative democracy, Social constructions, Measurement, Metrics & System's Control",
+    "education3Title":"History",
+    "education3Description": "Special Interests: Science-Technology-Society (STS), History and Philosophy of Science and Technology",
     "education4Degree": "Integrated MEng (5-year, Díploma)",
     "education4Title": "Applied Mathematics and Physics",
     "education4School": "National Technical University of Athens (NTUA) / 2001 - 2009",
     "education4Description": "MEng Thesis: \"Evaluation and modelling of Greek industry and natural resources during 19th century",
     "experience": "Experience",
-    "experience1Title": "Data GUI Developer",
-    "experience1Description": "In collaboration with:<br>- Université Paris Lumières (Paris Nanterre) and <br>- National and Kapodistrian University of Athens.<br>Implementation of automated scientific computational and data visualisation algorithms and development of their Graphic User Interface (cross-plarform and web) apps using Python, Tcl/Tk, R",
-    "experience2Title": "Jr ML Engineer",
-    "experience2Description": "- Worked on various ML models with large-scale datasets assuring workflow and processes of scalable and accurate forecasting systems (wind/solar power, load demand, marginal pricing)<br>- Analyse live and historical data to provide insights and KPIs, working closely with product, engineering, and business units.<br>- Graphic User Interface development for I/U of earthquake data/risk",
-    "experience3Title": "Statistical Text Data Analyst",
-    "experience3Description": "- Manipulate, analyse and interpret demographic and market datasets<br>- Data modelling, exploratory analysis and definition of model ingestion rules<br>- Worked with NLP techniques (Topic Modeling, Text classification, Entity Recognition) applied to raw text datasets (contact with IDHES research team)",
+
+    "experience1Title": "Software Engineer | Freelance & Contract",
+    "experience1Description": "Jan 2024–Present<br>- Designed, developed and deployed full-stack applications, educational PWAs and client websites using React, Next.js, Nuxt 3, TypeScript, Node.js and PostgreSQL.<br>- Integrated ASR and LLM APIs for video transcription, summarisation and translation through structured processing pipelines.<br>- Contributed to the backend and data architecture refactor of the ASCSA Digital Corpus.<br>- Built the ChronoQuest and ASEP 2025 Quiz PWAs, with the latter reaching over 1,100 daily users at peak.",
+
+    "experience2Title": "Full-Stack Web Developer | XEFI",
+    "experience2Description": "Mar 2023–Jan 2024 | Lyon<br>- Contributed to an internal management platform built with Ruby on Rails, Vue/Nuxt, PostgreSQL and Docker.<br>- Developed and maintained frontend and backend features, focusing on code quality, testing and maintainability.<br>- Worked in a Scrum team using TDD, RSpec and regular code reviews.",
+
+    "experience3Title": "Scientific Python GUI Developer",
+    "experience3Description": "2020–2022 | Academic research collaboration<br>- Developed cross-platform and web interfaces for scientific computing and data visualisation using Python, Tcl/Tk and R.<br>- Implemented computational workflows and visualisation tools with a focus on usability and reliability.<br>- Collaborated with Coventry University, Université Paris Nanterre and the National and Kapodistrian University of Athens.",
+
+    "experience4Title": "Junior Machine Learning Engineer | 4Cast",
+    "experience4Description": "2020 | Athens<br>- Worked with large-scale datasets and forecasting models for wind and solar power generation, electricity demand and marginal electricity prices.<br>- Analysed model drift and forecasting stability, contributing to reliable data processing and predictive workflows.",
+
+    "experience5Title": "Data Analyst | IFOP",
+    "experience5Description": "2018–2019 | Paris<br>- Processed, analysed and interpreted demographic, market and unstructured textual datasets.<br>- Conducted exploratory analysis, data modelling and preparation of datasets for analysis.<br>- Applied NLP techniques, including topic modelling, text classification and named-entity recognition.",
+
     "languages": "Languages, Technologies and Tools",
     "mySkills": "My Skills",
     "download-cv-or-qr": "Or scan this QR code:"
@@ -76,19 +86,29 @@
     "education2aDescription": "- Technologie avancée en sciences humaines et sociales, Topic Modeling, Machine Learning, NLP, Text Mining & Analytics",
     "education2bDescription": "- Mémoire: \"Analyse de sources informatiques et traditionnelles\"",
     "education3Degree": "Licence",
-    "education3Title": "Science-Technologie-Société",
-    "education3Description": "Intérêts particuliers: innovation, modernité alternative, IA, Limites de la prise de décision, Technoscience, Processus technosocial, Démocratie délibérative, Constructions sociales, Mesure, Métrique & Contrôle des Systèmes",
+    "education3Title": "Histoire",
+    "education3Description": "Intérêts particuliers: Science-Technologie-Société, Histoire et Philosophie de la Science et de la Technologie",
     "education4Degree": "Diplome (BAC+5)",
     "education4Title": "Mathématiques et Physique Appliquées",
     "education4School": "Ecole Polytechnique d'Athènes (NTUA) / 2001 - 2009",
     "education4Description": "Mémoire: \"Évaluation et modélisation de l'industrie et des ressources naturelles grecques au XIXe siècle\"",
     "experience": "Expérience",
-    "experience1Title": "Développeur d'interface graphique de données",
-    "experience1Description": "En collaboration avec:<br>- l'Université Paris Lumières (Paris Nanterre) et<br>- l'Université nationale et kapodistrienne d'Athènes (UoA).<br>Mise en place d'algorithmes automatisés de calcul scientifique et de visualisation de données et le développement de leurs applications d'interface utilisateur graphique (multiplateforme et Web) en utilisant Python, Tcl/Tk, R",
-    "experience2Title": "Jr ML Engineer",
-    "experience2Description": "- Travailler sur divers modèles ML avec des ensembles de données à grande échelle assurant le flux de travail et les processus de systèmes de prévision évolutifs et précis (énergie éolienne/solaire, demande de charge, tarification marginale)<br>- Analyser les données en temps réel et historiques pour fournir des informations et des indicateurs de performance clés, en étroite collaboration avec les unités de produit, d'ingénierie et commerciales.<br>- Développement d'une interface utilisateur graphique pour l'I/U des données/risques sismiques",
-    "experience3Title": "Analyste de données textuelles statistiques",
-    "experience3Description" : "- Manipuler, analyser et interpréter des ensembles de données démographiques et de marché<br>- Modélisation des données, analyse exploratoire et définition des règles d'ingestion des modèles<br>- A travaillé avec les techniques NLP (Topic Modeling, Text classification, Entity Reconnaissance) appliquée aux jeux de données texte brut (contact avec l'équipe de recherche de l'IDHES)",
+    
+    "experience1Title": "Ingénieur logiciel | Freelance et missions contractuelles",
+    "experience1Description": "Janv. 2024–aujourd'hui<br>- Conception, développement et déploiement d'applications full-stack, de PWA éducatives et de sites web clients avec React, Next.js, Nuxt 3, TypeScript, Node.js et PostgreSQL.<br>- Intégration d'API ASR et LLM pour la transcription, le résumé et la traduction de vidéos, à travers des pipelines de traitement structurés.<br>- Contribution à la refonte du backend et de l'architecture des données de l'ASCSA Digital Corpus.<br>- Développement des PWA ChronoQuest et ASEP 2025 Quiz, cette dernière ayant dépassé 1 100 utilisateurs quotidiens au pic de fréquentation.",
+
+    "experience2Title": "Développeur web full-stack | XEFI",
+    "experience2Description": "Mars 2023–janv. 2024 | Lyon<br>- Contribution au développement d'une plateforme interne de gestion utilisant Ruby on Rails, Vue/Nuxt, PostgreSQL et Docker.<br>- Développement et maintenance de fonctionnalités frontend et backend, avec une attention particulière à la qualité, aux tests et à la maintenabilité du code.<br>- Travail en équipe Scrum avec une approche TDD, des tests RSpec et des revues de code régulières.",
+
+    "experience3Title": "Développeur Python d'interfaces graphiques scientifiques",
+    "experience3Description": "2020–2022 | Collaboration universitaire<br>- Développement d'interfaces multiplateformes et web pour le calcul scientifique et la visualisation de données avec Python, Tcl/Tk et R.<br>- Mise en œuvre de traitements scientifiques et d'outils de visualisation, avec une attention particulière à l'ergonomie et à la fiabilité.<br>- Collaboration avec Coventry University, l'Université Paris Nanterre et l'Université nationale et capodistrienne d'Athènes.",
+
+    "experience4Title": "Ingénieur junior en machine learning | 4Cast",
+    "experience4Description": "2020 | Athènes<br>- Travail sur des jeux de données volumineux et des modèles de prévision de production éolienne et solaire, de demande électrique et de prix marginaux de l'électricité.<br>- Analyse de la dérive des modèles et de la stabilité des prévisions afin de contribuer à la fiabilité des traitements et des systèmes prédictifs.",
+
+    "experience5Title": "Analyste de données | IFOP",
+    "experience5Description": "2018–2019 | Paris<br>- Traitement, analyse et interprétation de données démographiques, d'études de marché et de corpus textuels non structurés.<br>- Analyse exploratoire, modélisation et préparation des données pour leur exploitation analytique.<br>- Application de techniques de traitement automatique du langage naturel (NLP), notamment la modélisation thématique, la classification de textes et la reconnaissance d'entités nommées.",
+
     "languages" : "Langages, Technologies et Outils",
     "mySkills": "Mes compétences",
     "download-cv-or-qr": "Ou scannez ce QR code :"
@@ -123,19 +143,29 @@
     "education2aDescription": "- Προηγμένη Τεχνολογία στις Ανθρωπιστικές και Κοινωνικές Επιστήμες, Machine Learning, Topic Modeling, NLP, εξόρυξη κι ανάλυση κειμένου",
     "education2bDescription": "- Διπλωματική : \"Υπολογιστική & παραδοσιακή ανάλυση πηγών\"",
     "education3Degree": "BA (Licence)",
-    "education3Title":"Επιστήμη-Τεχνολογία-Κοινωνία (STS)",
-    "education3Description": "Ειδικά Ενδιαφέροντα: Καινοτομία, Εναλλακτική Νεωτερικότητα, Τεχνητή Νοημοσύνη, Όρια λήψης αποφάσεων, Τεχνοεπιστήμη, Τεχνοκοινωνική Διαδικασία, Διαβουλευτική Δημοκρατία, Κοινωνικές κατασκευές, Μέτρηση, Μετρήσεις & Έλεγχος Συστήματος",
+    "education3Title":"Ιστορία",
+    "education3Description": "Ειδικά Ενδιαφέροντα: Science-Technology-Society (STS), Ιστορία και Φιλοσοφία της Επιστήμης και της Τεχνολογίας",
     "education4Degree": "Δίπλωμα ΕΜΠ",
     "education4Title": "Εφαρμοσμένα Μαθηματικά και Φυσικές Επιστήμες",
     "education4School": "Εθνικό Μετσόβιο Πολυτεχνείο (ΕΜΠ) / 2001 - 2009",
     "education4Description": "Διπλωματική: \"Αξιολόγηση και μοντελοποίηση της ελληνικής βιομηχανίας και των φυσικών πόρων κατά τον 19ο αιώνα\"",
     "experience": "Εμπειρία",
-    "experience1Title": "Data GUI Developer",
-    "experience1Description": "Σε συνεργασία με τα πανεπιστημια:<br>- Université Paris Lumières (Paris Nanterre) και<br>- Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών.<br>Εφαρμογή αυτοματοποιημένων επιστημονικών υπολογιστικών αλγορίθμων και οπτικοποίησης δεδομένων και ανάπτυξη των εφαρμογών γραφικων διεπαφών χρήστη (cross-plarform και web) χρησιμοποιώντας Python, Tcl/Tk, R",
-    "experience2Title": "Jr ML Engineer",
-    "experience2Description": "- Εργάστηκα σε διάφορα μοντέλα ML με μεγάλης κλίμακας σύνολα δεδομένων διασφαλίζοντας τη ροή εργασίας και τις διαδικασίες scaled συστημάτων πρόβλεψης ακριβείας (αιολική/ηλιακή ενέργεια, ζήτηση φορτίου, οριακή τιμολόγηση)<br>- Ανάλυση συγχρονων και ιστορικών δεδομένων για παροχή insights και KPIs, σε στενή συνεργασία με τα τμηματα Product, Engineering και Business.<br>- Ανάπτυξη γραφικής διεπαφής χρήστη για I/U δεδομένων/κινδύνου σεισμού",
-    "experience3Title": "Statistical Text Data Analyst",
-    "experience3Description": "- Χειρισμός, ανάλυση και ερμηνεία δημογραφικών δεδομένων και δεδομένων αγοράς<br>- Μοντελοποίηση δεδομένων, διερευνητική ανάλυση και ορισμός κανόνων απορρόφησης μοντέλων<br>- Τεχνικές NLP (Topic Modeling, Text classification, Entity Recognition) σε δεδομένα ακατέργαστου κειμένου (συνεργασία με την ερευνητική ομάδα IDHES)",
+
+    "experience1Title": "Μηχανικός λογισμικού | Freelance & Contract",
+    "experience1Description": "Ιαν. 2024–σήμερα<br>- Σχεδιασμός, ανάπτυξη και διάθεση σε παραγωγή full-stack εφαρμογών, εκπαιδευτικών PWA και ιστοτόπων πελατών με React, Next.js, Nuxt 3, TypeScript, Node.js και PostgreSQL.<br>- Ενσωμάτωση API ASR και LLM για απομαγνητοφώνηση, σύνοψη και μετάφραση βίντεο, μέσω δομημένων ροών επεξεργασίας.<br>- Συμμετοχή στην αναδιάρθρωση του backend και της αρχιτεκτονικής δεδομένων του ASCSA Digital Corpus.<br>- Ανάπτυξη των PWA ChronoQuest και ASEP 2025 Quiz, με τη δεύτερη να ξεπερνά τους 1.100 ημερήσιους χρήστες στην περίοδο αιχμής.",
+
+    "experience2Title": "Full-Stack Web Developer | XEFI",
+    "experience2Description": "Μάρ. 2023–Ιαν. 2024 | Λυών<br>- Συμμετοχή στην ανάπτυξη εσωτερικής πλατφόρμας διαχείρισης με Ruby on Rails, Vue/Nuxt, PostgreSQL και Docker.<br>- Ανάπτυξη και συντήρηση λειτουργιών frontend και backend, με έμφαση στην ποιότητα, τον έλεγχο και τη συντηρησιμότητα του κώδικα.<br>- Εργασία σε ομάδα Scrum με πρακτικές TDD, ελέγχους RSpec και τακτικά code reviews.",
+
+    "experience3Title": "Προγραμματιστής επιστημονικών εφαρμογών και γραφικών διεπαφών",
+    "experience3Description": "2020–2022 | Πανεπιστημιακή ερευνητική συνεργασία<br>- Ανάπτυξη γραφικών διεπαφών για υπολογιστές και εφαρμογές web, με αντικείμενο τον επιστημονικό υπολογισμό και την οπτικοποίηση δεδομένων, χρησιμοποιώντας Python, Tcl/Tk και R.<br>- Υλοποίηση υπολογιστικών διαδικασιών και εργαλείων οπτικοποίησης, με έμφαση στη χρηστικότητα και την αξιοπιστία.<br>- Συνεργασία με το Coventry University, το Université Paris Nanterre και το Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών.",
+
+    "experience4Title": "Junior ML Engineer | 4Cast",
+    "experience4Description": "2020 | Αθήνα<br>- Επεξεργασία μεγάλων συνόλων δεδομένων και εργασία με μοντέλα πρόβλεψης παραγωγής αιολικής και ηλιακής ενέργειας, ζήτησης ηλεκτρικής ισχύος και οριακών τιμών ηλεκτρικής ενέργειας.<br>- Ανάλυση της μεταβολής της συμπεριφοράς των μοντέλων (model drift) και της σταθερότητας των προβλέψεων, με στόχο την αξιοπιστία των διαδικασιών ανάλυσης και πρόβλεψης.",
+
+    "experience5Title": "Αναλυτής δεδομένων | IFOP",
+    "experience5Description": "2018–2019 | Παρίσι<br>- Επεξεργασία, ανάλυση και ερμηνεία δημογραφικών δεδομένων, δεδομένων αγοράς και μη δομημένων συλλογών κειμένων.<br>- Διερευνητική ανάλυση, μοντελοποίηση και προετοιμασία δεδομένων για περαιτέρω αναλυτική επεξεργασία.<br>- Εφαρμογή τεχνικών επεξεργασίας φυσικής γλώσσας (NLP), όπως θεματική μοντελοποίηση (topic modelling), ταξινόμηση κειμένων και αναγνώριση ονομαστικών οντοτήτων (named-entity recognition).",
+
     "languages": "Γλώσσες, Τεχνολογίες και Εργαλεία",
     "mySkills": "Δεξιότητες",
     "download-cv-or-qr": "Ή σαρώστε αυτό το QR code:"

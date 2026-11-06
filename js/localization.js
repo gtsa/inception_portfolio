@@ -23,7 +23,7 @@ async function fetchContentFromJSON() {
   document.getElementById('download2Link').setAttribute('href', `files/${cvFilename}`);
 
   // Update page content
-  const htmls = ["titleInfo", "descriptionInfo", "experience1Description", "experience2Description", "experience3Description"];
+  const htmls = ["titleInfo", "descriptionInfo", "experience1Description", "experience2Description", "experience3Description", "experience4Description", "experience5Description"];
   const keys = Object.keys(languageData);
   const texts = keys.filter(key => !htmls.includes(key));
 
